@@ -1,3 +1,3 @@
 # test
 
-jestem tu nowy :)
+jestem tu nowy i popelniam mase bledów
