@@ -1,3 +1,3 @@
 # test
 
-witaj Szymon!!!! jestes Developerem!!!
+witaj Szymon!!!
