@@ -1,0 +1,25 @@
+{
+  "name": "kodilla-test",
+  "version": "1.0.0",
+  "description": "example test project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sfeliks2016/test.git"
+  },
+  "keywords": [
+    "grunt"
+  ],
+  "author": "Szymon Feliks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sfeliks2016/test/issues"
+  },
+  "homepage": "https://github.com/sfeliks2016/test#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  }
+}
