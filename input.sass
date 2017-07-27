@@ -1,0 +1,87 @@
+$fonts: "Open Sans", sans-serif
+$kodilla-green: #505050
+
+.clearfix
+  &:before,
+  &:after 
+    content: " "
+    display: table
+
+  &:after 
+    clear: both
+
+#container 
+    width: 500px
+    margin: 100px auto
+    background-color: red
+    text-align: center
+    padding: 10px
+
+
+h2 
+  padding-bottom: 30px
+  font-family: $fonts
+  font-size: 40px
+  color: $kodilla-green
+
+
+.icon-btn 
+  float: left
+  padding: 0
+  margin: 10px
+  width: 75px
+  height: 75px
+  border-radius: 50%
+  background-color: #fff
+  cursor: pointer
+  font-size: 40px
+  line-height: 75px
+  transition: transform linear .3s
+
+
+.icon-btn:hover 
+  transform: scale(1.10)
+
+
+.twitter 
+    color: #4099FF
+    transition: transform .3s
+
+
+.twitter:hover 
+    color: #fff
+    background-color: #4099FF
+
+
+.facebook 
+    color: #3B5998
+
+
+.facebook:hover 
+    color: #fff
+    background-color: #3B5998
+
+
+.google-plus 
+    color: #DB5A3C
+
+
+.google-plus:hover 
+    color: #fff
+    background-color: #DB5A3C
+
+
+.instagram 
+    color: #5C3D2E
+
+
+.instagram:hover 
+    color: #fff
+    background-color: #5C3D2E
+
+
+.github 
+    color: #4183C4
+    &:hover  
+    color: #fff
+    background-color: #4183C4

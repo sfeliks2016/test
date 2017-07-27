@@ -1,94 +1,70 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
-/* CLEARFIX METHOD */
-.clearfix:before,
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table; }
 .clearfix:after {
-    content: " ";
-    display: table;
-}
-.clearfix:after {
-    clear: both;
-}
-
-* {
-    margin: 0;
-}
+  clear: both; }
 
 #container {
-    width: 500px;
-    margin: 100px auto;
-    background-color: #e0e0db;
-    text-align: center;
-    padding: 10px;
-}
+  width: 500px;
+  margin: 100px auto;
+  background-color: lightgreen;
+  text-align: center;
+  padding: 10px; }
 
 h2 {
-    padding-bottom: 30px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 40px;
-    color: #505050;
-}
+  padding-bottom: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  color: #505050; }
 
 .icon-btn {
-    float:left;
-    padding: 0;
-    margin: 10px;
-    width: 75px;
-    height: 75px;
-    border-radius: 50%;
-    background-color: #fff;
-    cursor: pointer;
-    font-size: 40px;
-    line-height: 75px;
-    transition: transform linear .3s;
-}
+  float: left;
+  padding: 0;
+  margin: 10px;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 40px;
+  line-height: 75px;
+  transition: transform linear 0.3s; }
 
 .icon-btn:hover {
-    transform: scale(1.10);
-}
+  transform: scale(1.1); }
 
 .twitter {
-    color: #4099FF;
-    transition: transform .3s;
-}
+  color: #4099FF;
+  transition: transform 0.3s; }
 
 .twitter:hover {
-    color: #fff;
-    background-color: #4099FF;
-}
+  color: #fff;
+  background-color: #4099FF; }
 
 .facebook {
-    color: #3B5998;
-}
+  color: #3B5998; }
 
 .facebook:hover {
-    color: #fff;
-    background-color: #3B5998;
-}
+  color: #fff;
+  background-color: #3B5998; }
 
 .google-plus {
-    color: #DB5A3C;
-}
+  color: #DB5A3C; }
 
 .google-plus:hover {
-    color: #fff;
-    background-color: #DB5A3C;
-}
+  color: #fff;
+  background-color: #DB5A3C; }
 
 .instagram {
-    color: #5C3D2E;
-}
+  color: #5C3D2E; }
 
 .instagram:hover {
-    color: #fff;
-    background-color: #5C3D2E;
-}
+  color: #fff;
+  background-color: #5C3D2E; }
 
 .github {
-    color: #4183C4;
-}
+  color: #4183C4;
+  color: #fff;
+  background-color: #4183C4; }
 
-.github:hover {
-    color: #fff;
-    background-color: #4183C4;
-}
+/*# sourceMappingURL=style.css.map */
